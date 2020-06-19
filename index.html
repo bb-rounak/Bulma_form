@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+	<title>Bulma Intro</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+	<link rel="stylesheet"  href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<div class="field">
+		<label class="label">Name</label>
+		<div class="control">
+			<input class="input" type="text" placeholder="Text input">
+		</div>
+	</div>
+
+	<div class="field">
+		<label class="label">Username</label>
+		<div class="control has-icons-left has-icons-right">
+			<input class="input is-success" type="text" placeholder="Text input">
+			<span class="icon is-small is-left">
+				<i class="fa fa-user"></i>
+			</span>
+			<span class="icon is-small is-right">
+				<i class="fa fa-check"></i>
+			</span>
+		</div>
+		<p class="help is-success">The username is available</p>
+	</div>
+
+	<div class="field">
+		<label class="label">Email</label>
+		<div class="control has-icons-left has-icons-right">
+			<input class="input is-danger"type="text" placeholder="Enter Email">
+			<span class="icon is-small is-left">
+				<i class="fa fa-envelope"></i>
+			</span>
+			<span class="icon is-small is-right">
+				<i class="fa fa-exclamation-triangle"></i>
+			</span>
+		</div>
+		<p class="help is-danger">The email is invalid</p>
+	</div>
+
+	<div class="field">
+		<label class="label">Subject</label>
+		<div class="control">
+			<div class="select">
+				<select>
+					<option>Select dropdown</option>
+					<option>Male</option>
+					<option>Female</option>
+					<option>Others</option>
+				</select>
+			</div>
+		</div>
+	</div>
+
+	<div class="field">
+		<label class="label">Message</label>
+		<div class="control">
+			<textarea class="textarea" placeholder="textarea"></textarea>
+		</div>
+	</div>
+
+	<div class="field">
+		<div class="control">
+			<label class="checkbox">
+				<input type="checkbox">
+				I agree to the <a href="#">Terms and Conditions</a>
+			</label>
+		</div>
+	</div>
+
+	<div class="field">
+		<div class="control">
+			<label class="radio">
+				<input type="radio" name="question">
+				Yes
+			</label>
+			<label>
+				<input type="radio" name="question">
+				No
+			</label>
+		</div>
+	</div>
+
+	<div class="field is-grouped">
+		<div class="control">
+			<button class="button is-link">Submit</button>
+		</div>
+		<div class="control">
+			<button class="button is-link is-light">Cancel</button>
+		</div>
+	</div>
+</body>
